@@ -24,6 +24,20 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width:640px) {
+    .header__wrap {
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+
+    .header__menu {
+        flex-direction: row;
+        gap: 10px;
+    } 
+
+    
+}
 
 @media screen and (max-width:460px) {
 
